@@ -1,0 +1,138 @@
+header {
+    background-color: aqua;
+}
+main {
+    background-color: rgb(17, 0, 255);
+}
+footer {
+    background-color: rgb(255, 153, 0);
+    bottom: 0;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+.center {
+    display: grid;
+    place-content: center;
+}
+
+.left {
+    place-content: left;
+}
+
+.right {
+    place-content: right;
+}
+
+.nav-flex {
+    display: flex;
+}
+
+.nav-flex__item {
+    margin: 1rem;
+}
+
+.lin-grad__lt-to-drk{
+    background-image: linear-gradient(135deg, rgb(17, 0, 255) 60%, rgb(0, 0, 0));
+}
+
+.h-2500 {
+    height: 3000px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.main-picture {
+    width: ;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
+.nav-flex-spacing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-flex-margin {
+    margin-left: 50rem;
+}
+
+.item{
+    width:300px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-bottom: 1px;
+    float:left;
+  }
+
+  .item-two{
+    width:300px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-bottom: 1px;
+    float:left;
+  }
+
+  .float-right {
+    float:right;
+  }
+
+  .main-pic {
+      height: 60vh;
+      background-color: black;
+      background-image: linear-gradient(
+          90deg, 
+            rgba(20, 19, 19, 0.945) 10%,
+            rgb(0, 0, 0, 0),
+            rgba(31, 28, 28, 0.945) 90%
+      ),
+      url(../assets/images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+      object-fit: cover;
+      position: relative;
+      background-position: center -110;
+  }
+
+.main-left {
+    color: rgb(255, 255, 255);
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 190px;
+    font-size: 30px;
+}
+
+.main-right {
+    color: rgb(255, 255, 255);
+    padding-right: 10%;
+    padding-bottom: 10%;
+    width: 200px;
+    font-size: 30px;
+    float: right;
+
+}
+
+.email-box[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+.margin-bottom {
+    margin-bottom: 180px;
+}
